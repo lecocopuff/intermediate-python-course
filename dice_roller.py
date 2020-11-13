@@ -10,7 +10,7 @@ def main():
   
   while roll_again == "yes" or roll_again == "y":
     print('Rolling the dices...')
-    print('It's a winner....')
+    print('Its a winner....')
     print random.randint(min,max)
     print random.randint(min,max)
   
