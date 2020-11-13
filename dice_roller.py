@@ -1,8 +1,6 @@
 import random
 
 def main():
-  print('You rolled a die')
-  
   min = 1
   max = 6
   
@@ -12,8 +10,7 @@ def main():
   roll = True
   
   while roll: 
-    print('Rolling the dices...')
-    print('Its a winner....')
+    print('Rolling the dices...'
     print(dice1)
     print(dice2)
   
