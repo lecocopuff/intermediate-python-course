@@ -9,15 +9,15 @@ def main():
   dice1 = random.randint(min,max)
   dice2 = random.randint(min,max)
   
-  roll_again = 'yes'
+  roll = True
   
-  while roll_again == "yes" or roll_again == "y":
+  while roll: 
     print('Rolling the dices...')
     print('Its a winner....')
     print(dice1)
     print(dice2)
   
-  roll again = raw_input("Roll the dices again?")
+    roll = ('y' or 'yes') in input().lower()
 
 if __name__== "__main__":
   main()
