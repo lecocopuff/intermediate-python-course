@@ -1,18 +1,12 @@
-import random
+from random import randint
 
 def main():
-  min = 1
-  max = 6
-  
-  dice1 = random.randint(min,max)
-  dice2 = random.randint(min,max)
-  
   roll = True
   
   while roll: 
-    print('Rolling the dices...'
-    print(dice1)
-    print(dice2)
+    print('Rolling the dices...')
+    print(randint(1,6))
+    print(randint(1,6))
   
     roll = ('y' or 'yes') in input().lower()
 
